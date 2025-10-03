@@ -1,0 +1,14 @@
+flask
+python-dotenv
+pypdf
+torch
+transformers
+sentence-transformers==2.2.2
+
+langchain
+langchain-community
+langchain-pinecone
+langchain-huggingface
+
+pinecone-client[grpc]
+-e .
