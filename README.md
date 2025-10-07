@@ -12,11 +12,11 @@ Project repo: https://github.com/
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n medibot python=3.10 -y
+conda create -n pro python=3.10 -y
 ```
 
 ```bash
-conda activate medibot
+conda activate pro
 ```
 
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+HUGGINGFACEHUB_API_TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 
@@ -41,7 +41,7 @@ python store_index.py
 
 ```bash
 # Finally run the following command
-python app.py
+python application.py
 ```
 
 Now,
@@ -55,5 +55,5 @@ open up localhost:
 - Python
 - LangChain
 - Flask
-- GPT
+- HuggingFaceHub
 - Pinecone

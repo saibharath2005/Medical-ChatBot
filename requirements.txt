@@ -1,14 +1,11 @@
-flask
-python-dotenv
-pypdf
-torch
-transformers
 sentence-transformers==2.2.2
-
 langchain
-langchain-community
+flask
+pypdf
+python-dotenv
+pinecone[grpc]
 langchain-pinecone
+langchain_community
 langchain-huggingface
-
-pinecone-client[grpc]
+langchain_experimental
 -e .
